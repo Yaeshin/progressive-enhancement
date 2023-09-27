@@ -1,0 +1,122 @@
+p{
+    font-family: serif;
+    color: #2d1402;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+
+a{
+    font-weight: bold;
+    font-size:20px;
+    color: #cf0909;
+}
+  
+a:hover{
+    color: #61ace1;
+}
+  
+a:visited{
+    color: #007718;
+}
+
+body{
+    max-width: 90%;
+    margin: auto;
+    background: -webkit-linear-gradient(91deg, rgb(22, 135, 237), rgb(27, 70, 112));
+    background: linear-gradient(91deg, rgb(22, 135, 237), rgb(27, 70, 112));
+    background-image: url(https://imgur.com/YLyctGp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: "Open Sans";
+}
+
+blockquote, q{
+    max-width: 50%;
+    margin: 80px auto;
+    font-size:160%;
+    background-color: #c4c4c4;
+    border-left: 3px solid;
+    padding: 30px;
+    font-style: italic;
+    display:block;
+}
+
+blockquote.neighbors{
+    border-left:#a78101;
+}
+  
+blockquote.farmer{
+    border-left:#158c00a5;
+}
+
+header h1{
+    background-color: yellow;
+}
+
+span.good{
+    text-transform: capitalize;
+    color: green;
+}
+
+span.bad{
+    text-transform: capitalize;
+    color: red;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+  
+tr:nth-child(even) {
+    background-color: white;
+}
+
+li:first-child{
+    background-image: url(../assets/imgs/good.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+li:nth-child(2){
+    background-image: url(../assets/imgs/bad.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+li:nth-child(3){
+    background-image: url(../assets/imgs/cat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+p:first-of-type{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #7d2600;
+    width:200px;
+    font-weight:bold;
+    color: #333300;
+}
+
+
+aside {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+
